@@ -228,7 +228,7 @@ export default {
  }
  @media only screen and (max-width: 1200px) {
     .curs{
-        display: none;
+        /* display: none; */
     }
     .team{
         height: 900px;
@@ -244,6 +244,7 @@ export default {
         width: 700px;
         height: 300px;
 }
+/* hover divs */
     .icon1-hover{
         height: 80px;
         width: 50px;
@@ -274,11 +275,54 @@ export default {
         width: 56px;
         right: 41%;
     }
-    .icon5-hover{
+    .icon6-hover{
         height: 100px;
         top: 140px;
         width: 56px;
         right: 50%;
+    }
+    /* elements */
+    .icon1{
+        height: 70px;
+        width: 70px;
+        top: -2px;  
+        left: -2px;
+        display: none;
+    }
+    .icon2{
+        height: 110px;
+        width: 110px;
+        top: -45px;  
+        left: -10px;
+        display: none;
+    }
+    .icon3{
+        height: 37px;
+        width: 50px;
+        top: 10px;  
+        left: 3px;
+        display: none;
+    }
+    .icon4{
+        height: 60px;
+        width: 25px;
+        top: 17px;  
+        left: 17px;
+        display: none;
+    }
+    .icon5{
+        height: 35px;
+        width: 40px;
+        top: -45px;  
+        left: 5px;
+        display: none;
+    }
+    .icon6{
+        height: 20px;
+        width: 40px;
+        top: -2px;  
+        left: 10px;
+        display: none;
     }
  }   
 </style>
