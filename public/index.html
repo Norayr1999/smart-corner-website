@@ -1,8 +1,30 @@
 <!DOCTYPE html>
 <html lang="">
   <head>
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+      .linkto{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        width: 50px;
+        border-radius: 100%;
+        color: rgba(237, 110, 0, 1);
+        position: fixed;
+        background-color: white;
+        font-size: 24px;
+        bottom: 30px;
+        right: 50px;
+        z-index: 999;
+      }
+    </style>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- splide slider -->
+    <link rel="stylesheet" href="node_modules/@splidejs/splide/dist/css/splide.min.css">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
     <title><%= htmlWebpackPlugin.options.title %></title>
@@ -13,5 +35,8 @@
     </noscript>
     <div id="app"></div>
     <!-- built files will be auto injected -->
+    <a class="linkto" href="#header">
+      <i class="fas fa-chevron-up up"></i>
+    </a>
   </body>
 </html>
