@@ -27,7 +27,7 @@
                     </div>
 
                     <div class="col-xl-9">
-                        <div class="teamPic">
+                        <div class="teamPic img-fluid">
                             <!-- main picture -->
                             <img src="./../../assets/header/body/all-team.jpg" class="img-fluid">
                             <!-- Components -->
@@ -227,9 +227,6 @@ export default {
      display: block;
  }
  @media only screen and (max-width: 1200px) {
-    .curs{
-        /* display: none; */
-    }
     .team{
         height: 900px;
     }
@@ -246,9 +243,9 @@ export default {
 }
 /* hover divs */
     .icon1-hover{
-        height: 80px;
+        height: 120px;
         width: 50px;
-        top: 160px;
+        top: 120px;
         right: 5%;
     }
     .icon2-hover{
@@ -285,45 +282,51 @@ export default {
     .icon1{
         height: 70px;
         width: 70px;
-        top: -2px;  
+        top: 38px;  
         left: -2px;
-        display: none;
     }
     .icon2{
         height: 110px;
         width: 110px;
         top: -45px;  
         left: -10px;
-        display: none;
     }
     .icon3{
         height: 37px;
         width: 50px;
         top: 10px;  
         left: 3px;
-        display: none;
     }
     .icon4{
         height: 60px;
         width: 25px;
         top: 17px;  
         left: 17px;
-        display: none;
     }
     .icon5{
         height: 35px;
         width: 40px;
         top: -45px;  
         left: 5px;
-        display: none;
     }
     .icon6{
         height: 20px;
         width: 40px;
         top: -2px;  
         left: 10px;
-        display: none;
     }
  }   
+ @media only screen and (max-width: 765px) {
+    .curs{
+        display: none;
+    }  
+    img{
+        height: 100%;
+    }  
+    .teamPic{height: 230px;
+        width: 500px;
+        text-align: center;
+    }
+ }
+ 
 </style>
-    

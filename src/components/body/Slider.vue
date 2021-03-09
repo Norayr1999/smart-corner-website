@@ -114,7 +114,7 @@ export default {
             rewind: true,
             type: 'loop',
             autoplay: true,
-            gap: '1rem',
+            gap: '2rem',
             pagination : false
         },
     }
