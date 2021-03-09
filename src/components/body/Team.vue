@@ -228,7 +228,7 @@ export default {
  }
  @media only screen and (max-width: 1200px) {
     .curs{
-        
+        display: none;
     }
     .team{
         height: 900px;
@@ -240,11 +240,45 @@ export default {
     .col-xl-9{
         text-align: center;
     }
+    .teamPic {
+        width: 700px;
+        height: 300px;
+}
     .icon1-hover{
         height: 80px;
         width: 50px;
-        top: 150px;
-        right: 3%;
+        top: 160px;
+        right: 5%;
+    }
+    .icon2-hover{
+        height: 100px;
+        width: 60px;
+        top: 120px;
+        right: 13%;
+    }
+    .icon3-hover{
+        height: 100px;
+        top: 120px;
+        width: 60px;
+        right: 23%;
+    }
+    .icon4-hover{
+        height: 100px;
+        top: 130px;
+        width: 60px;
+        right: 32%;
+    }
+    .icon5-hover{
+        height: 100px;
+        top: 140px;
+        width: 56px;
+        right: 41%;
+    }
+    .icon5-hover{
+        height: 100px;
+        top: 140px;
+        width: 56px;
+        right: 50%;
     }
  }   
 </style>
